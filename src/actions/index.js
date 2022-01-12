@@ -4,7 +4,7 @@ export const fetchRandom = (state) => (dispatch) => {
 
     dispatch({ type: "view-loading" });
 
-    return fetch(`https://lista-random-ddh-bsr.herokuapp.com/r`, {
+    return fetch(`https://random-react-app.herokuapp.com/r`, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         headers: {
             'Content-Type': 'application/json'
